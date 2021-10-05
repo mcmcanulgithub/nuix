@@ -10,3 +10,11 @@
 |multiplyTestDecimals | Tests multiplying different decimal numbers together |
 |divisionTestIntegers | Tests dividing different integers numbers together |
 |divisionTestDecimals | Tests dividing different decimal numbers together |
+
+## Bugs Found
+
+1. 5 is actually treated as 6
+
+2. Decimals are rounding instead of being exact
+
+3. Multiplication with anything returns the correct value plus 2
