@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import static org.junit.Assert.assertEquals;
 
-public class MyProfileTest {
+public class CalculatorTest {
 	
 	WebDriver driver;
 	
