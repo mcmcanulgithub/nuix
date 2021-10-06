@@ -17,20 +17,20 @@ public class CalculatorTest {
 	public void setup() {
 		
 		// System Property for Chrome Driver
-	    System.setProperty("webdriver.chrome.driver",System.getenv("CHROME_WEB_DRIVER_PATH"));
+		System.setProperty("webdriver.chrome.driver",System.getenv("CHROME_WEB_DRIVER_PATH"));
 	      
-	    // Instantiate a ChromeDriver class.       
-	    driver = new ChromeDriver();
+		// Instantiate a ChromeDriver class.       
+		driver = new ChromeDriver();
 	    	    
-	    // Launch Website  
-        driver.navigate().to("https://nuix.github.io/SDET/senior-sdet/stagingCalc/index.html"); 
-	    //driver.navigate().to("https://nuix.github.io/SDET/senior-sdet/productionCalc/index.html"); 
+		// Launch Website  
+		driver.navigate().to("https://nuix.github.io/SDET/senior-sdet/stagingCalc/index.html"); 
+		//driver.navigate().to("https://nuix.github.io/SDET/senior-sdet/productionCalc/index.html"); 
           
-        //Maximize the browser  
-        driver.manage().window().maximize(); 
+		//Maximize the browser  
+		driver.manage().window().maximize(); 
 
-        //start tests after a brief wait for page to render
-        delay(1000);
+		//start tests after a brief wait for page to render
+		delay(1000);
 		
 	}
 	
@@ -456,10 +456,10 @@ public class CalculatorTest {
 	void delay(int milliseconds) {
 		
 		try {
-				Thread.sleep(milliseconds);
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
+			Thread.sleep(milliseconds);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		
 	}
 
