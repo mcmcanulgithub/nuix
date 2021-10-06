@@ -15,6 +15,6 @@
 
 1. 5 is actually treated as 6
 
-2. Decimals are rounding instead of being exact
+2. Decimals are rounding to nearest whole number instead of being exact
 
 3. Multiplication with anything returns the correct value plus 2
